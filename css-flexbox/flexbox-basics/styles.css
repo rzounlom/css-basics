@@ -1,0 +1,54 @@
+/* Reset some default styles for clarity */
+body,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Container with Flexbox */
+.container {
+  display: flex; /* Create a flex container */
+}
+
+.container .example1 {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Flex items */
+.example1 .item {
+  flex: 1; /* Allow items to grow and fill available space equally */
+  padding: 20px;
+  border: 3px solid #ccc;
+  text-align: center;
+  height: 400px;
+  width: 50%;
+}
+
+.example1 .item.one {
+  background-color: blue;
+}
+
+.example1 .item.two {
+  background-color: yellow;
+}
+
+.example1 .item.three {
+  background-color: green;
+}
+
+.example1 .item.four {
+  background-color: pink;
+}
+
+.example1 .item.five {
+  background-color: purple;
+}
+
+.example1 .item.six {
+  background-color: red;
+}

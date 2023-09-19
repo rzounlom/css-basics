@@ -1,0 +1,66 @@
+/* Reset some default styles for clarity */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar styles */
+.navbar {
+  height: 5vh;
+  background-color: #333;
+  color: #fff;
+  padding: 6px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Landing Page styles */
+.landing {
+  height: 45vh;
+  background-image: url("https://media.istockphoto.com/id/1482915045/photo/multiracial-team-of-engineers-or-architects-having-a-meeting-in-an-office.jpg?s=2048x2048&w=is&k=20&c=3QtaOxMSVpDPWudjzt5OBZKqgkEjnB7lv5qgkxRYAOc=");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+/* Main Section styles */
+.main-content {
+  height: 45vh;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Footer styles */
+.footer {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

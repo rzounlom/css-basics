@@ -1,0 +1,47 @@
+/* Reset some default styles for clarity */
+body,
+h1,
+h2,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global styles for examples */
+.example {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Example 1: Padding */
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Example 2: Border */
+.box-border {
+  width: 200px;
+  height: 100px;
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+/* Example 3: Margin */
+.box-margin {
+  width: 200px;
+  height: 100px;
+  background-color: #27ae60;
+  color: #fff;
+  padding: 20px;
+  border: 2px solid #229954;
+  margin: 20px;
+}
