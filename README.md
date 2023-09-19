@@ -15,3 +15,9 @@ Example 3 (box-margin) includes margin around the element. It highlights how mar
 ## CSS Flexbox
 
 In the css-flexbox folders you find examples on how to use the basics of flexbox as well as how to create responseive layouts. Open the index.html file in each folder in the browser and paly around with the examples.
+
+You will also find two full website examples using css flexbox
+
+Example 1: the workit landing page example is a landing page for a Data analytics platform. You can find the original repo here: https://github.com/ZounMedia/workit and the live site here: https://workit-taupe.vercel.app/
+
+Example 2: the skilled landing page example is a landing page for a E-learning platform; You can find the original repo here: https://github.com/ZounMedia/skilled and the live site here: https://skilled-rho.vercel.app/
