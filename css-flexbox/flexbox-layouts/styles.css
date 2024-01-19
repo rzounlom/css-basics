@@ -69,9 +69,14 @@ body {
 
 /* Main Section styles */
 .main-content {
-  height: 80vh;
+  height: 100vh;
   padding: 40px;
   text-align: center;
+}
+
+.main-content h2 {
+  margin-top: 30px;
+  color: white;
 }
 
 #about {
@@ -109,10 +114,6 @@ body {
 /* Media Queries */
 /* tablet breakpoint */
 @media (max-width: 768px) {
-  .navbar {
-    height: 15vh;
-  }
-
   .landing h1 {
     font-size: 3.5rem;
   }
