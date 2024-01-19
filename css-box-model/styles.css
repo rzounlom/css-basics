@@ -22,17 +22,25 @@ div {
   height: 100px;
   background-color: #3498db;
   color: #fff;
-  padding: 20px;
+  padding: 50px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: pink;
+  color: #fff;
+  padding: 50px;
 }
 
 /* Example 2: Border */
 .box-border {
   width: 200px;
   height: 100px;
-  background-color: #e74c3c;
+  background-color: #736664;
   color: #fff;
   padding: 20px;
-  border: 3px solid rgb(47, 35, 35);
+  border: 3px solid rgb(155, 142, 141);
 }
 
 /* Example 3: Margin */

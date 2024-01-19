@@ -24,6 +24,11 @@ gap
 .container .example1 {
   height: 100vh;
   width: 100vw;
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 /* Flex items */
