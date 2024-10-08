@@ -12,6 +12,12 @@ body {
   font-size: 14px;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
 /* Navbar styles */
 .navbar {
   height: 5vh;
