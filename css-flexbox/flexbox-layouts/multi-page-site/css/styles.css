@@ -1,0 +1,223 @@
+/* General styles for the document */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General styles for the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navbar styles */
+nav {
+  height: 8vh;
+  width: 100%;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+}
+
+nav ul {
+  height: 100%;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Sidebar styles for large screens */
+.sidebar {
+  display: none; /* Hidden on small screens */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #f4f4f4;
+  width: 200px;
+  height: 100%;
+  padding: 10px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  transition: all 0.3s ease;
+}
+
+.sidebar ul li:hover {
+  background-color: #ddd;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  padding: 10px;
+}
+
+/* Main content styles */
+.main-content {
+  padding: 0 20px;
+}
+
+h1 {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: #333;
+  text-align: center;
+}
+
+p {
+  font-size: 1em;
+  color: #666;
+  text-align: center;
+}
+
+/* Product image styles */
+.product-img {
+  margin-top: 20px;
+  width: 100%;
+  height: 50%;
+}
+
+.product-img img {
+  width: 100%;
+}
+
+/* Button styles */
+.btn {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+/* Contact form styles */
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+form {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #333;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* Responsive design: navbar on mobile/tablet, sidebar on large screens */
+@media (min-width: 768px) {
+  nav ul {
+    padding: 0 15%;
+  }
+  h1 {
+    font-size: 2em;
+    color: #333;
+  }
+}
+
+@media (min-width: 1080px) {
+  nav {
+    display: none;
+  }
+
+  .sidebar {
+    display: block;
+  }
+
+  .main-content {
+    margin-left: 220px; /* Add space for sidebar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    color: #333;
+    /* margin-top: 10px; */
+  }
+
+  p {
+    font-size: 1.2em;
+    color: #666;
+  }
+
+  .product-img {
+    width: 50%;
+    max-width: 590px;
+  }
+
+  .btn {
+    width: 25%;
+    text-align: center;
+  }
+
+  .footer {
+    margin-left: 220px;
+  }
+}
