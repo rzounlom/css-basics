@@ -25,13 +25,14 @@ div {
   padding: 50px;
 }
 
-.box {
+/* Example of cascading/overiding classes with same name */
+/* .box {
   width: 200px;
   height: 100px;
   background-color: pink;
   color: #fff;
   padding: 50px;
-}
+} */
 
 /* Example 2: Border */
 .box-border {
